@@ -31,18 +31,7 @@ driver.get("https://www.lancebetting.com/sports-hub/football/brazil/brasileirao_
 while True:
     try:
         df = obter_dataframe(query='li')
-        df = df.loc[(df.aa_classList ==
-                'KambiBC-sandwich-filter__event-list-item'
-                )]['aa_innerText'].str.split(r'[\r\n]+', expand=True)[range(7)].rename(
-            columns={0: 'dia',
-                     1: 'hora', 2: 'team1_nome', 3: 'team2_nome', 4: 'team1',
-                     5: 'empate', 6: 'team2'}).assign(team1=lambda q: q['team1'].str.replace(',', '.'),
-                                                      team2=lambda q: q['team2'].str.replace(',', '.'),
-                                                      empate=lambda q: q['empate'].str.replace(',', '.')).astype({'team1':
-                                                                                                                      'Float64',
-                                                                                                                  'empate':
-                                                                                                                      'Float64',
-                                                                                                                  'team2': 'Float64'})
+        df=df.loc[ (df.aa_classList=='KambiBC-sandwich-filter__event-list-item')].aa_innerText.str.split(r'[\r\n]',regex=True,expand=True)[range(7)].reset_index(drop=True).rename( columns={0: 'dia', 1: 'hora', 2: 'team1_nome', 3: 'team2_nome', 4: 'team1', 5: 'empate', 6:'team2'}).assign(team1=lambda q:q.team1.str.replace(',', '.'),team2=lambda q:q.team2.str.replace(',', '.'),empate=lambda q:q.empate.str.replace(',', '.')).astype({'team1': 'Float64', 'empate': 'Float64', 'team2': 'Float64'})
         break
     except Exception as e:
         print(e)
