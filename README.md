@@ -1,2 +1,11 @@
-# tutorial_raspagem_lancebetting
-Automatize Suas Apostas: Raspagem de Odds no LanceBetting com Python
+[![YT](https://i.ytimg.com/vi/wtzj8yi5mPQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=wtzj8yi5mPQ)
+[https://www.youtube.com/watch?v=wtzj8yi5mPQ]()
+
+Neste vídeo, você aprenderá como usar a programação em Python para automatizar a coleta de odds esportivas 
+em tempo real do site LanceBetting. Demonstrarei passo a passo como criar um script que raspa as odds de
+apostas esportivas, incluindo informações sobre datas, horários e nomes das equipes. Você também verá como 
+organizar esses dados em um DataFrame usando a biblioteca Pandas.
+
+Este vídeo é perfeito para entusiastas de apostas esportivas que desejam explorar estratégias avançadas, 
+como a arbitragem, que envolve aproveitar as diferenças nas odds oferecidas por diferentes casas de apostas. 
+A automação da coleta de dados pode economizar tempo e permitir que você tome decisões mais informadas ao apostar.
