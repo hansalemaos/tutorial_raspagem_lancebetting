@@ -1,5 +1,5 @@
-[![YT](https://i.ytimg.com/vi/wtzj8yi5mPQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=wtzj8yi5mPQ)
-[https://www.youtube.com/watch?v=wtzj8yi5mPQ]()
+[![YT](https://i.ytimg.com/vi/QKQa8nOkzVk/maxresdefault.jpg)](https://www.youtube.com/watch?v=QKQa8nOkzVk)
+[https://www.youtube.com/watch?v=QKQa8nOkzVk]()
 
 Neste vídeo, você aprenderá como usar a programação em Python para automatizar a coleta de odds esportivas 
 em tempo real do site LanceBetting. Demonstrarei passo a passo como criar um script que raspa as odds de
