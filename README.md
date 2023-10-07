@@ -9,3 +9,5 @@ organizar esses dados em um DataFrame usando a biblioteca Pandas.
 Este vídeo é perfeito para entusiastas de apostas esportivas que desejam explorar estratégias avançadas, 
 como a arbitragem, que envolve aproveitar as diferenças nas odds oferecidas por diferentes casas de apostas. 
 A automação da coleta de dados pode economizar tempo e permitir que você tome decisões mais informadas ao apostar.
+
+## pip install selenium seleniumbase PrettyColorPrinter a-selenium2df
